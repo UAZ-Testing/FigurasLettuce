@@ -32,3 +32,8 @@ def dado_que_ingreso_los_numeros_group1_y_group2(step, base, altura):
 def cuando_calculo_el_area_del_rectangulo(step):
     world.resultado = world.figuras.obtener_area_rectangulo(world.base,
                                                             world.altura)
+
+
+@step(u'cuando calculo el área del círculo')
+def cuando_calculo_el_area_del_circulo(step):
+    world.resultado = world.figuras.obtener_area_circulo(world.numero)
