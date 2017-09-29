@@ -5,11 +5,11 @@ Feature: Área de un cuadrado
 
   Scenario: Área de cuadrado de 4 de lado
   Dado que ingreso el número "4"
-  cuando calculo el área
+  cuando calculo el área del cuadrado
   entonces obtengo el resultado "16"
 
   Scenario: Área de cuadrado de 6 de lado
   Dado que ingreso el número "6"
-  cuando calculo el área
+  cuando calculo el área del cuadrado
   entonces obtengo el resultado "36"
 
